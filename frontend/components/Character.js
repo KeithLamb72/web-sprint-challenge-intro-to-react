@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Character({ name, homeworld, gender, height, eye_color }) {
+function Character({ name, homeworld,}) {
   const [showHomeworld, setShowHomeworld] = useState(false);
 
   const toggleHomeworld = () => setShowHomeworld(!showHomeworld);
