@@ -9,9 +9,6 @@ function Character({ name, homeworld, gender, height, eye_color }) {
     <div className="character-card" onClick={toggleHomeworld}>
       <h3 className="character-name">{name}</h3>
       {showHomeworld && <p className="character-planet">Homeworld: {homeworld.name}</p>}
-      <p>Gender: {gender}</p>
-      <p>Height: {height}</p>
-      <p>Eye Color: {eye_color}</p>
     </div>
   );
 }
